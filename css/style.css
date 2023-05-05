@@ -4,12 +4,17 @@
     --bg-color : #fef9f8; /*Cream*/
     --link-color: #ef9273; /*Peach*/
     --text-color: #0d0d0d; /*Char-coal*/
+    --alt-color: #fde5dd;
     
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Quicksand', sans-serif;
     background: var(--bg-color);
+    
 }
 
 span{
@@ -74,3 +79,36 @@ span{
 .landing .ref{
     margin-left: 8%;
 }
+
+.header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--alt-color);
+    position: fixed;
+    
+}
+
+.header .logo{
+    margin-left: 0.5rem;
+}
+
+.header .navbar{
+    margin-right: 10%;
+}
+.header .navbar a{
+    text-decoration: none;
+    color: var(--link-color);
+    margin: 0 1rem;
+    font-weight: 570;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+
+.header .navbar a:hover{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+
