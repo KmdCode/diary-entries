@@ -17,9 +17,9 @@
             </div>
             <div class="form" method = "post">
                 <div><input type="text" name = "username" ><label>username</label> </div>
-               <div><input type="email" name = "email" ><label>email</label></div>
-               <div><input type="password" name = "password" ><label>password</label></div>
-               <div><input type="password" name = "verify"><label>confirm password</label></div>
+                <div><input type="email" name = "email" ><label>email</label></div>
+                <div><input type="password" name = "password" ><label>password</label></div>
+                <div><input type="password" name = "verify"><label>confirm password</label></div>
                 <button>Sign Up</button>
                 <div class = "ref"><a href="login.php">Already have an account?Sign in.</a></div>
             </div>
