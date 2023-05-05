@@ -21,7 +21,7 @@
                <div><input type="password" name = "password" ><label>password</label></div>
                <div><input type="password" name = "verify"><label>confirm password</label></div>
                 <button>Sign Up</button>
-                <div class = "ref"><a href="#">Already have an account?Sign in.</a></div>
+                <div class = "ref"><a href="login.php">Already have an account?Sign in.</a></div>
             </div>
         </div>
     </div>
