@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+:root{
+    --bg-color : #fef9f8; /*Cream*/
+    --link-color: #ef9273; /*Peach*/
+    --text-color: #0d0d0d; /*Char-coal*/
+    
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background: var(--bg-color);
+}
+
+span{
+    color: var(--link-color);
+}
+
+.landing{
+    margin-left: 25%;
+    margin-top: 10%;
+
+    
+    
+}
+.landing h2{
+    margin-left: 10%;
+}
+
+.landing .entry .landing-heading{
+    margin-left: 10%;
+}
+
+.landing .entry .form label{
+    margin-left: 0.5rem;
+}
+
+.landing .entry .form input{
+    width: 40%;
+    height: 1.5rem;
+    border-radius: 1rem;
+    margin: 0.3rem;
+    border: 2px solid;
+    border-color: var(--link-color);
+    
+}
+
+.landing .entry .form input:hover{
+    border-color: palevioletred;
+}
+
+.landing .entry .form button{
+    width: 25%;
+    color: var(--text-color);
+    font-size: 1rem;
+    background-color: var(--link-color);
+    height: 2rem;
+    border-radius: 1rem;
+    margin: 0.3rem;
+    margin-left: 8%;
+    border: 2px solid;
+    border-color: var(--link-color);
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    
+}
+
+.landing a{
+    text-decoration: none;
+    color: var(--text-color);
+    padding-top: 0.5rem;
+}
+
+.landing .ref{
+    margin-left: 8%;
+}
