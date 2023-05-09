@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FEED</title>
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
 <body>
     <?php require_once "navigation.php";?>
+    <div class="banner" id="home">
 
-    <div class="slider" id="slide">
-        <h1>header</h1>
     </div>
+
+    
 
 </body>
 </html>
