@@ -12,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Quicksand', sans-serif;
     background: var(--bg-color);
@@ -123,9 +124,26 @@ header .navbar a:hover{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
     align-items: centre;
-    padding: 1rem;
+    gap: 2rem;
+    padding: 2rem;
+    padding-left: 3rem;
 
 }
 
+ 
+text{
+    fill:var(--link-color);
+    font-family: 'Luckiest Guy', cursive;
+
+}
+
+.banner h1{
+    color: var(--bg-color);
+    font-size: 35px;
+    font-family: cursive;
+    padding-left: 3rem;
+    justify-content: center;
+
+}
 
 
