@@ -153,9 +153,10 @@ text{
 
 .hero .content h2{
     color: var(--bg-color);
+    
 }
 .hero .friends{
-    height: 40vh;
+  
     /* border: solid; */
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
@@ -174,6 +175,7 @@ text{
 
 .hero .friends .list .box h3{
     color:var(--bg-color);
+    /* font-family: 'Luckiest Guy', cursive; */
 }
  
 .hero .friends .list .box button{
@@ -189,6 +191,46 @@ text{
     cursor: pointer;
     margin-bottom: 0.5rem;
     cursor: pointer;
-    
 }
+
+.feed .name{
+    justify-content: center;
+    text-align: center;
+}
+
+.feed .entries{
+    border: solid;
+    border-radius: 1.5rem;
+    border-color: palevioletred;
+    margin: 1.5rem;
+}
+.feed .entries .main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+
+}
+.feed .entries .main .info{
+    text-align: center;
+}
+.feed .entries .main img{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+}
+.feed .entries .main .cont h3{
+    margin-bottom: 1.5rem;
+    color:var(--link-color)
+
+}
+.feed .entries .main .info h3{
+    margin-bottom: 1rem;
+    color:var(--link-color)
+}
+
+
+
+
+
+
+
 

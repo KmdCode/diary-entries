@@ -21,24 +21,55 @@
                     <div class="box">
                         <h2>BY: NAME <span>DATE: 1 JAN 2023</h2>
                         <div class="image">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam maxime at repudiandae sunt animi suscipit nobis. Voluptatum repudiandae explicabo rerum cupiditate possimus reprehenderit vitae provident modi quia doloremque distinctio, fugit impedit quis aperiam, labore quae eius commodi. Ullam impedit voluptate error voluptas voluptatibus excepturi at delectus reprehenderit sit nemo.</h3>
+                        <h3>Lorem ipsum dolor sit amet repudiandae sunt animi suscipit nobis possimus reprehenderit vitae provident modi quia doloremque distinctio, fugit impedit quis aperiam, labore quae eius commodi. Ullam impedit voluptate error voluptas voluptatibus excepturi at delectus reprehenderit sit nemo.</h3>
                         </div>
                         <button>More</button>
                     </div>
-                </div>
-                
-                <div class="list">
-                    <div class="box">
-                        <h2>BY: NAME <span>DATE: 1 JAN 2023</h2>
-                        <div class="image">
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam maxime at repudiandae sunt animi suscipit nobis. Voluptatum repudiandae explicabo rerum cupiditate possimus reprehenderit vitae provident modi quia doloremque distinctio, fugit impedit quis aperiam, labore quae eius commodi. Ullam impedit voluptate error voluptas voluptatibus excepturi at delectus reprehenderit sit nemo.</h3>
-                        </div>            
-                        <button>More</button>              
-                    </div>
-                </div>
+                </div>   
             </div>
     </div>
 
+    <div class="feed" id="feed">
+
+        <div class="name"><h1>FEED</h1></div>
+        <div class="entries">
+            <div class="main">
+                <div class="info">
+                    <h3>USERNAME</h3>
+                    <img src="images/nio-et5.jpg" alt="">  
+                </div>
+                <div class="cont">
+                    <h3>DATE: 1 JAN 2023</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum facere Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum facere tempore esse dolore nisi quibusdam dicta ea sit iusto ad! Nisi dolor officiis quisquam assumenda. Incidunt cum laudantium aliquid assumenda optio vero harum aut, dicta magnam, delectus quasi? Laborum dolores aliquid praesentium eos eveniet mollitia? Dicta, aperiam repellendus? Assumenda, ducimus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="entries">
+            <div class="main">
+                <div class="info">
+                    <h3>USERNAME</h3>
+                    <img src="images/nio-et5.jpg" alt="">  
+                </div>
+                <div class="cont">
+                    <h3>DATE: 1 JAN 2023</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum facere Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum facere tempore esse dolore nisi quibusdam dicta ea sit iusto ad! Nisi dolor officiis quisquam assumenda. Incidunt cum laudantium aliquid assumenda optio vero harum aut, dicta magnam, delectus quasi? Laborum dolores aliquid praesentium eos eveniet mollitia? Dicta, aperiam repellendus? Assumenda, ducimus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="entries">
+            <div class="main">
+                <div class="info">
+                    <h3>USERNAME</h3>
+                    <img src="images/nio-et5.jpg" alt="">  
+                </div>
+                <div class="cont">
+                    <h3>DATE: 1 JAN 2023</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum facere Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum facere tempore esse dolore nisi quibusdam dicta ea sit iusto ad! Nisi dolor officiis quisquam assumenda. Incidunt cum laudantium aliquid assumenda optio vero harum aut, dicta magnam, delectus quasi? Laborum dolores aliquid praesentium eos eveniet mollitia? Dicta, aperiam repellendus? Assumenda, ducimus.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
     
 
 </body>
