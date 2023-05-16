@@ -44,11 +44,14 @@ span{
 
 .landing .entry .form input{
     width: 40%;
-    height: 1.5rem;
+    height: 2rem;
     border-radius: 1rem;
     margin: 0.3rem;
+    padding: 0.3rem;
     border: 2px solid;
     border-color: var(--link-color);
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
     
 }
 
@@ -198,6 +201,11 @@ text{
     text-align: center;
 }
 
+.text .name{
+    justify-content: center;
+    text-align: center;
+}
+
 .feed .entries{
     border: solid;
     border-radius: 1.5rem;
@@ -273,6 +281,53 @@ text{
     margin-bottom: 0.5rem;
     cursor: pointer;
 }
+
+.text .entries{
+    border: solid;
+    border-radius: 1.5rem;
+    border-color: palevioletred;
+    margin: 1.5rem;
+}
+
+.text .entries textarea{
+    width: 100%;
+    border: none;
+    border-radius: 1.5rem;
+    outline: none;
+    padding: 0.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+.text button{
+    color: var(--text-color);
+    background-color: var(--alt-color);
+    height: 3rem;
+    width: 5rem;
+    border-radius: 1rem;
+    margin: 0.3rem;
+    margin-left: 1.5rem;
+    border: 2px solid;
+    border-color: var(--link-color);
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.feed .entries .main .cont button{
+    color: var(--text-color);
+    background-color: var(--alt-color);
+    height: 3rem;
+    width: 5rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    margin-left: 1.5rem;
+    border: 2px solid;
+    border-color: var(--link-color);
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+
 
 
 

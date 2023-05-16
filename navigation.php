@@ -6,7 +6,7 @@
         </div>
         <div class="navbar">
             <a href="feed.php">FEED</a>
-            <a href="#">MY-ENTRIES</a>
+            <a href="entries.php">MY-ENTRIES</a>
             <a href="#">FRIENDS</a>
             <a href="profile.php">PROFILE</a>
             <a href="login.php">LOGOUT</a>
