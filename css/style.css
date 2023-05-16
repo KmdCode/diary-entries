@@ -227,6 +227,52 @@ text{
     color:var(--link-color)
 }
 
+.profile{
+    justify-content: center;
+    text-align: center;
+   
+    border-radius: 1rem; 
+    height: 30rem;
+    width: 20rem;
+    margin-left: 30%;
+    margin-top: 2.5rem;
+    background: var(--link-color);
+}
+.profile .content{
+  
+    justify-content: center;
+    text-align: center;
+    padding: 0.1rem 2rem 0 2rem;
+    margin-bottom: 0.5rem;
+    margin: 0.3rem;
+}
+
+.profile img{
+    margin: 0.5rem;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+}
+
+.profile .mode{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10rem,auto));
+}
+
+.profile .mode button{
+    
+    color: var(--text-color);
+    background-color: var(--alt-color);
+    height: 3rem;
+    width: 5rem;
+    border-radius: 1rem;
+    margin: 0.3rem;
+    border: 2px solid;
+    border-color: var(--link-color);
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
 
 
 

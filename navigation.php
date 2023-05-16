@@ -8,7 +8,7 @@
             <a href="feed.php">FEED</a>
             <a href="#">MY-ENTRIES</a>
             <a href="#">FRIENDS</a>
-            <a href="#">PROFILE</a>
+            <a href="profile.php">PROFILE</a>
             <a href="login.php">LOGOUT</a>
         </div>
     </header>

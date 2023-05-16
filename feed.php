@@ -31,7 +31,7 @@
 
     <div class="feed" id="feed">
 
-        <div class="name"><h1>FEED</h1></div>
+        <div class="name"><h1><span>FEED</span></h1></div>
         <div class="entries">
             <div class="main">
                 <div class="info">
