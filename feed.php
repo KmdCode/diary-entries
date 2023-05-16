@@ -10,21 +10,33 @@
 </head>
 <body>
     <?php require_once "navigation.php";?>
-    <div class="banner" id="home">
-        
-        <div class="main">
-            <h1>"It is never too late to be what you might have been." – George</h1>
-        <svg viewBox="0 0 500 500">
-            <path id="curve" fill="transparent" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
-            <text width="500">
-                <textPath xlink:href="#curve">
-                Good Afternoon Karabo, Welcome to your Diary Entries
-                </textPath>
-            </text>
-         </svg>
-         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam illum, possimus similique facere ab reiciendis alias dignissimos sed reprehenderit facilis temporibus quia minus, excepturi, aut officia delectus! Atque quod corrupti culpa magni repellat, enim assumenda harum tenetur totam exercitationem facere pariatur et nostrum recusandae. Obcaecati asperiores vero laboriosam accusantium esse.</h1>
+    <div class="hero" id="home">
+        <div class="content">
+            <h1>WORD OF THE DAY</h1>
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima aperiam quos veniam? Accusantium, quasi dolor.</h2>
         </div>
-
+        <h1><span>POPULAR ENTRIES</span></h1>
+        <div class="friends">
+            <div class="list">
+                    <div class="box">
+                        <h2>BY: NAME <span>DATE: 1 JAN 2023</h2>
+                        <div class="image">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam maxime at repudiandae sunt animi suscipit nobis. Voluptatum repudiandae explicabo rerum cupiditate possimus reprehenderit vitae provident modi quia doloremque distinctio, fugit impedit quis aperiam, labore quae eius commodi. Ullam impedit voluptate error voluptas voluptatibus excepturi at delectus reprehenderit sit nemo.</h3>
+                        </div>
+                        <button>More</button>
+                    </div>
+                </div>
+                
+                <div class="list">
+                    <div class="box">
+                        <h2>BY: NAME <span>DATE: 1 JAN 2023</h2>
+                        <div class="image">
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam maxime at repudiandae sunt animi suscipit nobis. Voluptatum repudiandae explicabo rerum cupiditate possimus reprehenderit vitae provident modi quia doloremque distinctio, fugit impedit quis aperiam, labore quae eius commodi. Ullam impedit voluptate error voluptas voluptatibus excepturi at delectus reprehenderit sit nemo.</h3>
+                        </div>            
+                        <button>More</button>              
+                    </div>
+                </div>
+            </div>
     </div>
 
     
