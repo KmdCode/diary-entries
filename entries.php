@@ -25,7 +25,7 @@
             <div class="main">
                 <div class="info">
                     <h3>USERNAME</h3>
-                    <img src="images/nio-et5.jpg" alt="">  
+                    <img src="images/profile.jpg" alt="">  
                 </div>
                 <div class="cont">
                     <h3>DATE: 1 JAN 2023</h3>
@@ -40,7 +40,7 @@
             <div class="main">
                 <div class="info">
                     <h3>USERNAME</h3>
-                    <img src="images/nio-et5.jpg" alt="">  
+                    <img src="images/profile.jpg" alt="">  
                 </div>
                 <div class="cont">
                     <h3>DATE: 1 JAN 2023</h3>
@@ -55,7 +55,7 @@
             <div class="main">
                 <div class="info">
                     <h3>USERNAME</h3>
-                    <img src="images/nio-et5.jpg" alt="">  
+                    <img src="images/profile.jpg" alt="">  
                 </div>
                 <div class="cont">
                     <h3>DATE: 1 JAN 2023</h3>

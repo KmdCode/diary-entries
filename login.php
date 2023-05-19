@@ -15,12 +15,12 @@
             <div class="landing-heading">
             <h3> LOGIN </h3>
             </div>
-            <div class="form" method = "post">
+            <form method = "post">
                 <div><input type="email" name = "email" ><label>email</label></div>
                 <div><input type="password" name = "password" ><label>password</label></div>
                 <button>Login</button>
                 <div class = "ref"><a href="sign-up.php">Don't have an account? Sign up</a></div>
-            </div>
+            </form>
         </div>
     </div>
 </body>

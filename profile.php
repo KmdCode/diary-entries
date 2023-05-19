@@ -12,7 +12,7 @@
     <?php require_once "navigation.php";?>
 
     <div class="profile">
-        <img src="images/nio-et5.jpg" alt="">
+        <img src="images/profile.jpg" alt="">
         <div class="content">
             <h3>USERNAME</h3>
             <h3>EMAIL</h3>
