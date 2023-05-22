@@ -1,5 +1,5 @@
 <?php
-    require 'connection.php';
+    require 'functions.php';
     
     if($_SERVER['REQUEST_METHOD']=='POST')
     {
@@ -10,18 +10,15 @@
 
         if($password == $confirm)
         {
-            $pass =  password_hash($password,PASSWORD_BCRYPT);
-            $query = "insert into users (username, email, password) values ('$username','$email','$pass')";
-            $result = mysqli_query($con,$query);
+            // $pass =  password_hash($password,PASSWORD_BCRYPT);
+            $query = "insert into users (username, email, password) values ('$username','$email','$password')";
+            $results = mysqli_query($con,$query);
+            header("Location:feed.php");
         }
         else
         {
             $error = "Passwords do not match";
-        }
-
-
-        
-        
+        }       
     }
 ?>
 

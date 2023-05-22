@@ -9,7 +9,7 @@
             <a href="entries.php">MY-ENTRIES</a>
             <a href="#">FRIENDS</a>
             <a href="profile.php">PROFILE</a>
-            <a href="login.php">LOGOUT</a>
+            <a href="logout.php">LOGOUT</a>
         </div>
     </header>
 
