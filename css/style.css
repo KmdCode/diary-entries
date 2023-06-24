@@ -215,8 +215,9 @@ text{
     margin: 1.5rem;
 }
 .feed .entries .main{
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+    grid-template-columns: 20rem 1fr;
 
 }
 .feed .entries .main .info{

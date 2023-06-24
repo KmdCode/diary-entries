@@ -45,7 +45,7 @@
                 </div>
                 <div class="cont">
                     <h3>DATE: 1 JAN 2023</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum facere Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum facere tempore esse dolore nisi quibusdam dicta ea sit iusto ad! Nisi dolor officiis quisquam assumenda. Incidunt cum laudantium aliquid assumenda optio vero harum aut, dicta magnam, delectus quasi? Laborum dolores aliquid praesentium eos eveniet mollitia? Dicta, aperiam repellendus? Assumenda, ducimus.</p>
+                    <p>Lorem ipsum dol</p>
                 </div>
             </div>
         </div>

@@ -1,3 +1,7 @@
+<?php
+    require "functions.php";
+    check_login();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,8 +18,8 @@
     <div class="profile">
         <img src="images/profile.jpg" alt="">
         <div class="content">
-            <h3>USERNAME</h3>
-            <h3>EMAIL</h3>
+            <h3><?php echo $_SESSION['info']['username'];?></h3>
+            <h3><?php echo $_SESSION['info']['email'];?></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam commodi accusantium sint, quae libero doloribus?</p>
         </div>
         <div class="mode">
